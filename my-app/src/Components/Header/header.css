@@ -1,6 +1,6 @@
 .headerWrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: flex-end;
 }
 
@@ -11,5 +11,13 @@
 }
 
 .auth-link ul li{
-    margin: 0 8px;
+    margin: 0 10px ;
+}
+
+
+.auth-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
 }
