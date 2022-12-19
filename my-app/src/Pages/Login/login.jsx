@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../Components/Footer/footer'
 import Header from '../../Components/Header/header'
+import {Link} from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -10,10 +11,10 @@ const Login = () => {
             <div className='login-wrapper'>
                 <div className="row">
                     <div className="col-md-6">
-                    <div className="lead-text">
+                    <div className="lead-text"> 
                       <h3>Login with social links</h3>
                     </div>
-                    <p>Already Register <a href="">Login</a></p>
+                    <p>Don't have account ? <Link to="/register">Register</Link></p>
         
         <hr/>
         <button  className="btn btn-danger d-block w-100 mb-3">Danger</button>
@@ -42,7 +43,8 @@ const Login = () => {
                       <h3>NEW CUSTOMER</h3>
                     </div> 
                     <p> By creating an account with us, puchasing on our website becomes much faster and easier.</p>
-                    <button type="button" class="btn btn-outline-danger">NEW CUSTOMER</button> 
+                    {/* <button type="button" className="btn btn-outline-danger">NEW CUSTOMER</button>  */}
+                    <Link to="/register"  className="btn btn-outline-danger">NEW CUSTOMER</Link> 
                         
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../../Components/Footer/footer'
 import Header from '../../Components/Header/header'
+import {Link} from 'react-router-dom'
 
 const Register = () => {
   return (
@@ -13,7 +14,7 @@ const Register = () => {
        </div>
 
     <div className='register-wrapper pt-2'>
-        <p>Already Register <a href="">Login</a></p>
+        <p>Already Register <Link to="/login">Login</Link></p>
         
         <hr/>
         <button  className="btn btn-danger d-block w-100 mb-3">Danger</button>
@@ -21,6 +22,15 @@ const Register = () => {
         <hr />
         {/* d-block w-100  ---> display block width-100  className */}
             <form className="row g-3">
+
+            <div className="col-md-6">
+                <label for="inputEmail4" className="form-label">First Name</label>
+                <input type="email" className="form-control" id="inputEmail4"/>
+            </div>
+            <div className="col-md-6">
+                <label for="inputEmail4" className="form-label">Last Name</label>
+                <input type="email" className="form-control" id="inputEmail4"/>
+            </div>
             <div className="col-md-6">
                 <label for="inputEmail4" className="form-label">Email</label>
                 <input type="email" className="form-control" id="inputEmail4"/>
