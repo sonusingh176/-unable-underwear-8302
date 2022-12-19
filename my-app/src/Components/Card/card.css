@@ -1,0 +1,16 @@
+.card-wrapper .card{
+    /* border: 1px solid red; */
+     border: none;
+}
+
+.card-wrapper .card-body{
+    padding: 0;
+    padding-top: 12px;
+}
+
+.btn-wrapper button{
+    width: 50%;
+    border-radius: 5px;
+    margin: 2%;
+    
+}

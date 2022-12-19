@@ -4,3 +4,8 @@
   border: 1px solid #ddd;
   padding: 8px 0;
 }
+ 
+.App{
+  margin: auto;
+  width: 75%;
+} 

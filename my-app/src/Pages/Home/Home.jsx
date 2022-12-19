@@ -1,7 +1,9 @@
 import React from 'react'
+import Footer from '../../Components/Footer/footer'
 import Header from '../../Components/Header/header'
 import Slider from '../../Components/Slider/slider'
 import Card from '../../Components/Card/card'
+import './home.css'
 
 const Home = () => {
   return (
@@ -27,6 +29,7 @@ const Home = () => {
         </div>
 
        </div>
+       <Footer/>
       </div>
   )
 }
