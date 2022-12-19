@@ -30,13 +30,19 @@ const Login = () => {
                 <input type="password" className="form-control" id="inputPassword4"/>
             </div>
             <div className="col-12">
-                <button type="submit" className="btn btn-primary">Register Now</button>
+                <button type="submit" className="btn btn-primary">Login  Now</button>
             </div>
             </form>
 
 
                     </div>
                     <div className="col-md-6">
+
+                    <div className="lead-text">
+                      <h3>NEW CUSTOMER</h3>
+                    </div> 
+                    <p> By creating an account with us, puchasing on our website becomes much faster and easier.</p>
+                    <button type="button" class="btn btn-outline-danger">NEW CUSTOMER</button> 
                         
                     </div>
                 </div>

@@ -15,6 +15,8 @@ const Header = () => {
                 <ul>
                     <li><a href='#'><i class="bi bi-geo-alt-fill"></i>Store Locator</a></li>
                     <li><a href='#'><i class="bi bi-person-circle"></i>Signin/Register</a></li>
+                    <li><a href='#'>My Account</a></li>
+                    <li><a href='#'>Logout</a></li>
                 </ul>
             </div>
 
